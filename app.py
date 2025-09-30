@@ -17,16 +17,16 @@ import psycopg2.extras
 
 # ------------------------------ CONFIG ------------------------------
 # Fill these values directly (no .env as requested).
-VERIFY_TOKEN = "REPLACE_WITH_YOUR_VERIFY_TOKEN"         # Used only for GET verification
-APP_SECRET   = b"REPLACE_WITH_YOUR_APP_SECRET"          # Meta App Secret (bytes!)
-PAGE_ACCESS_TOKEN = "REPLACE_WITH_PAGE_ACCESS_TOKEN"    # Page token with leads_retrieval
+VERIFY_TOKEN = "VERIFY_TOKEN"         # Used only for GET verification
+APP_SECRET   = b"e4a23c213b6765ab31dc5c4b217b64c9"          # Meta App Secret (bytes!)
+PAGE_ACCESS_TOKEN = "EAASmzt8imZAsBPoKbH7AP9ab7O4AbfB8yR2vgNZBmDgae8ripSewpMA8V12mkfDHezEZCZAyUduKNgX8gRZAcUGZAvsNMzmOgr2bP7pC6f3OFmZAfvlzAiy7biZB1L0ECZCE2hiy7uKwpkaql1HmF9zMU1ZA7cUXHkHZBU5HLIgZAoX9LTDZB7HwoZB6lyFCPBPcSe"    # Page token with leads_retrieval
 
 # Postgres connection (RDS/EC2) - direct values
-PG_HOST = "REPLACE_DB_HOST"
+PG_HOST = "qispine-db.cqjl02ffrczp.ap-south-1.rds.amazonaws.com"
 PG_PORT = 5432
-PG_DB   = "REPLACE_DB_NAME"
-PG_USER = "REPLACE_DB_USER"
-PG_PASS = "REPLACE_DB_PASSWORD"
+PG_DB   = "qed_prod"
+PG_USER = "qispineadmin"
+PG_PASS = "TrOpSnl1H1QdKAFsAWnY"
 
 # Graph API version
 GRAPH_VERSION = "v23.0"
